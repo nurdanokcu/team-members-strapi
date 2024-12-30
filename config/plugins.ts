@@ -2,7 +2,7 @@ export default () => ({
   documentation: {
     enabled: true,
   },
-  
+  // test
   tinymce: {
     enabled: true,
     config: {
