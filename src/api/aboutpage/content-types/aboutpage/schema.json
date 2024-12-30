@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutpages",
+  "info": {
+    "singularName": "aboutpage",
+    "pluralName": "aboutpages",
+    "displayName": "Aboutpage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "tiny_editor": {
+      "type": "customField",
+      "customField": "plugin::tinymce.tinymce"
+    }
+  }
+}

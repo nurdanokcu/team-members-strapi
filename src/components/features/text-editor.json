@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_features_text_editors",
+  "info": {
+    "displayName": "textEditor",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "tiny_editor": {
+      "type": "customField",
+      "customField": "plugin::tinymce.tinymce"
+    }
+  }
+}
