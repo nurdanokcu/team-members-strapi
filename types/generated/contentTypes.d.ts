@@ -458,6 +458,7 @@ export interface ApiTeamMemberTeamMember extends Struct.CollectionTypeSchema {
     photo: Schema.Attribute.Media<'images' | 'files'> &
       Schema.Attribute.Required;
     publishedAt: Schema.Attribute.DateTime;
+    richtext: Schema.Attribute.Blocks;
     slug: Schema.Attribute.UID<'name'> & Schema.Attribute.Required;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &

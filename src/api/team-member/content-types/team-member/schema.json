@@ -41,6 +41,9 @@
         "features.spoiler",
         "features.text-editor"
       ]
+    },
+    "richtext": {
+      "type": "blocks"
     }
   }
 }
